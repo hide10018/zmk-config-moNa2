@@ -73,10 +73,10 @@
 
         default_layer {
             bindings = <
-&kp Q    &kp L         &kp U         &kp COMMA      &kp PERIOD                                   &kp F        &kp W  &kp R  &kp Y  &kp P
-&kp E    &kp I         &kp A         &kp O          &kp MINUS      &trans         &kp ENTER      &kp K        &kp T  &kp N  &kp S  &kp H
-&kp Z    &kp X         &kp C         &kp V          &kp SEMICOLON  &kp GRAVE      &kp SEMICOLON  &kp G        &kp D  &kp M  &kp J  &kp B
-&kp TAB  &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &lt 2 SPACE    &lt 1 SPACE    &kp BACKSPACE  &lt 1 ENTER                       &kp DEL
+&kp Q                  &kp L         &kp U         &kp COMMA      &kp PERIOD                                   &kp F        &kp W  &kp R  &kp Y  &kp P
+&kp E                  &kp I         &kp A         &kp O          &kp MINUS      &trans         &kp SLASH      &kp K        &kp T  &kp N  &kp S  &kp H
+&mt LEFT_SHIFT Z       &kp X         &kp C         &kp V          &kp SEMICOLON  &kp GRAVE      &kp TAB        &kp G        &kp D  &kp M  &kp J  &kp B
+&mt LEFT_SHIFT ESCAPE  &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &lt 2 SPACE    &lt 1 SPACE    &kp BACKSPACE  &lt 1 ENTER                       &kp DEL
             >;
 
             sensor-bindings =
@@ -84,12 +84,12 @@
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
-        layer_1 {
+        mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &kp F12
+&trans     &trans     &trans  &trans  &trans                      &mkp MCLK  &trans     &trans  &trans  &trans
+&kp LC(A)  &kp LC(S)  &trans  &trans  &trans  &trans    &mkp MB5  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+&trans     &trans     &trans  &trans  &trans  &trans    &mkp MB4  &trans     &trans     &trans  &trans  &trans
+&trans     &trans     &trans  &trans  &trans  &trans    &trans    &trans                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
