@@ -86,10 +86,10 @@
 
         mouse {
             bindings = <
-&trans     &trans     &trans  &trans  &trans                      &mkp MCLK  &trans     &trans  &trans  &trans
-&kp LC(A)  &kp LC(S)  &trans  &trans  &trans  &trans    &mkp MB5  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
-&trans     &trans     &trans  &trans  &trans  &trans    &mkp MB4  &trans     &trans     &trans  &trans  &trans
-&trans     &trans     &trans  &trans  &trans  &trans    &trans    &trans                                &trans
+&trans     &trans     &trans     &trans     &trans                      &mkp MCLK  &trans     &trans  &trans  &trans
+&kp LC(A)  &kp LC(S)  &trans     &trans     &trans  &trans    &mkp MB5  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans    &mkp MB4  &trans     &trans     &trans  &trans  &trans
+&trans     &trans     &trans     &trans     &trans  &trans    &trans    &trans                                &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
