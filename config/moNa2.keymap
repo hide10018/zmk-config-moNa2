@@ -107,10 +107,10 @@
 
         mouse {
             bindings = <
-&trans     &trans     &trans     &trans     &trans                    &kp LC(F)  &kp LC(F)  &trans     &trans  &trans
-&kp LC(A)  &kp LC(S)  &mkp LCLK  &mkp RCLK  &trans  &trans    &trans  &mkp MB5   &mkp LCLK  &mkp RCLK  &trans  &trans
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans    &trans  &mkp MB4   &trans     &trans     &trans  &trans
-&trans     &trans     &trans     &trans     &trans  &trans    &trans  &trans                                   &trans
+&trans     &trans     &trans     &trans     &trans                    &kp LC(F)  &kp LC(F)  &trans     &kp RIGHT_BRACKET      &kp BACKSLASH
+&kp LC(A)  &kp LC(S)  &mkp LCLK  &mkp RCLK  &trans  &trans    &trans  &mkp MB5   &mkp LCLK  &mkp RCLK  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans    &trans  &mkp MB4   &trans     &trans     &trans                 &trans
+&trans     &trans     &trans     &trans     &trans  &trans    &trans  &trans                                                  &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
