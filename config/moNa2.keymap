@@ -118,10 +118,10 @@
 
         layer_2 {
             bindings = <
-&kp KP_PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LS(MINUS)                           &kp EQUAL             &kp LS(N7)        &kp LS(N8)        &kp LS(N9)        &kp LS(INT3)
-&kp MINUS        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(MINUS)  &trans    &trans         &kp LS(LEFT_BRACKET)  &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)  &kp LS(SLASH)
-&kp KP_ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0   &trans    &kp LS(EQUAL)  &kp LEFT_BRACKET      &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(INT1)
-&kp SLASH        &trans        &trans        &trans        &trans         &trans    &trans         &trans                                                                      &kp LS(EQUAL)
+&kp KP_PLUS      &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp LS(MINUS)                                 &kp EQUAL             &kp LS(N7)        &kp LS(N8)        &kp LS(N9)        &kp LS(INT3)
+&kp MINUS        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LS(MINUS)  &trans    &kp INTERNATIONAL_1  &kp LS(LEFT_BRACKET)  &kp LS(NUMBER_4)  &kp LS(N5)        &kp LS(NUMBER_6)  &kp LS(SLASH)
+&kp KP_ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0   &trans    &kp LS(EQUAL)        &kp LEFT_BRACKET      &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(INT1)
+&kp SLASH        &trans        &trans        &trans        &trans         &trans    &trans               &trans                                                                      &kp LS(EQUAL)
             >;
 
             sensor-bindings = <&scroll_up_down>;
