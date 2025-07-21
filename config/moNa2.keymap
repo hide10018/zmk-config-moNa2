@@ -94,10 +94,10 @@
 
         default_layer {
             bindings = <
-&kp Q                  &kp L         &kp U               &kp COMMA      &kp PERIOD                               &kp F        &kp W  &kp R  &kp Y  &kp P
-&mt LCTRL E            &kp I         &kp A               &kp O          &kp MINUS      &trans         &kp SLASH  &kp K        &kp T  &kp N  &kp S  &kp H
-&mt LEFT_SHIFT Z       &kp X         &kp C               &kp V          &kp SEMICOLON  &kp ESC        &kp TAB    &kp G        &kp D  &kp M  &kp J  &kp B
-&mt LEFT_SHIFT ESCAPE  &kp LEFT_WIN  &mt LEFT_ALT GRAVE  &kp BACKSPACE  &lt 3 SPACE    &lt 1 SPACE    &kp TAB    &lt 2 ENTER                       &lt 4 LC(SLASH)
+&kp Q                  &kp L         &kp U               &kp COMMA      &kp PERIOD                                 &kp F        &kp W  &kp R  &kp Y  &kp P
+&mt LCTRL E            &kp I         &kp A               &kp O          &kp MINUS      &trans         &kp SLASH    &kp K        &kp T  &kp N  &kp S  &kp H
+&mt LEFT_SHIFT Z       &kp X         &kp C               &kp V          &kp SEMICOLON  &kp ESC        &kp TAB      &kp G        &kp D  &kp M  &kp J  &kp B
+&mt LEFT_SHIFT ESCAPE  &kp LEFT_WIN  &mt LEFT_ALT GRAVE  &kp BACKSPACE  &lt 3 SPACE    &lt 1 SPACE    &lt 5 SPACE  &lt 2 ENTER                       &lt 4 LC(SLASH)
             >;
 
             sensor-bindings =
@@ -151,10 +151,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+&trans  &trans        &kp LG(UP_ARROW)    &trans         &trans                    &trans  &trans            &kp LG(LC(F4))  &trans             &trans
+&trans  &kp LG(LEFT)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT)  &trans  &trans    &trans  &trans  &kp LG(LC(LEFT))  &kp LG(LC(D))   &kp LG(LC(RIGHT))  &trans
+&trans  &trans        &trans              &trans         &trans  &trans    &trans  &trans  &trans            &trans          &trans             &trans
+&trans  &trans        &trans              &trans         &trans  &trans    &trans  &trans                                                       &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
